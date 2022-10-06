@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/*** Reset + Gerais ***/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*** Header ***/
+header {
+  min-height: 10vh;
+  min-width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /***  background: linear-gradient(rgb(160, 235, 160), aqua) fixed; ***/
+}
+
+header h1 {
+  background: none;
+  text-shadow: 2px 2px white;
+  font-family: 'Press Start 2P';
+  padding: 10px;
+}
+
+header h2 {
+  background: none;
+  text-shadow: 2px 2px white;
+  font-family: 'Press Start 2P';
+}
+
+.links-secretos {
+  background: none;
+  text-shadow: 3px 3px white;
+  font-family: 'Press Start 2P';
+  text-decoration: none;
+  color: black;
+}
+
+.links-secretos:visited {
+  background: none;
+  text-shadow: 3px 3px white;
+  font-family: 'Press Start 2P';
+  text-decoration: none;
+  color: black;
+}
+
+.links-secretos:focus {
+  background: none;
+  text-shadow: 3px 3px white;
+  font-family: 'Press Start 2P';
+  text-decoration: none;
+  color: black;
+}
+
+/*** Main ***/
+
+body {
+  background: radial-gradient(aquamarine, rgb(58, 165, 192));
+}
+
+input {
+  padding: 2px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 5px;
+  background-color: white;
+  border-radius: 15%;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  transition: 0.1s;
+  color: white;
+}
+
+container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+.divs-exercicio {
+  background-color: rgba(255, 255, 255, 65%);
+}
+
+/******** Exercicio 01 *******/
+#div-ex-um {
+  margin: 1vw;
+  display: flex;
+  min-width: 40vw;
+  max-width: 500px;
+  min-height: 30vh;
+  max-height: 700px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+#div-ex-um h2 {
+  text-shadow: 2px 2px white;
+  margin: 10px;
+  font-family: 'Press Start 2P';
+}
+
+#questao-um {
+  padding: 10px;
+  text-align: justify;
+}
+
+.label-ex-um {
+  margin: 5px;
+}
+
+.botao-ex-um {
+  margin: 5px;
+}
+
+/******** Exercicio 02 *******/
+#div-ex-dois {
+  margin: 1vw;
+  display: flex;
+  min-width: 40vw;
+  max-width: 500px;
+  min-height: 30vh;
+  max-height: 700px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+#div-ex-dois h2 {
+  text-shadow: 2px 2px white;
+  font-family: 'Press Start 2P';
+  margin: 10px;
+}
+
+.botao-ex-dois {
+  margin: 10px;
+  padding: 10px 15px 10px;
+}
+
+/******** Exercicio 03 *******/
+#div-ex-tres {
+  margin: 1vw;
+  display: flex;
+  min-width: 40vw;
+  max-width: 500px;
+  min-height: 30vh;
+  max-height: 700px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+#div-ex-tres h2 {
+  text-shadow: 2px 2px white;
+  font-family: 'Press Start 2P';
+  margin: 10px;
+}
+
+#questao-tres {
+  padding: 10px;
+  text-align: justify;
+}
+
+.label-ex-tres {
+  margin: 5px;
+}
+
+.botao-ex-tres {
+  margin: 5px;
+}
+
+/***Exercicio 04***/
+#div-ex-quatro {
+  margin: 1vw;
+  display: flex;
+  min-width: 40vw;
+  max-width: 500px;
+  min-height: 30vh;
+  max-height: 700px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+#div-ex-quatro h2 {
+  text-shadow: 2px 2px white;
+  font-family: 'Press Start 2P';
+  margin: 10px;
+}
+
+.botao-ex-quatro {
+  margin: 10px;
+  padding: 10px 15px 10px;
+}
+
+/***Exercicio 05***/
+#div-ex-cinco {
+  margin: 1vw;
+  display: flex;
+  min-width: 40vw;
+  max-width: 500px;
+  min-height: 30vh;
+  max-height: 700px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+#div-ex-cinco h2 {
+  text-shadow: 2px 2px white;
+  font-family: 'Press Start 2P';
+  margin: 10px;
+}
+
+.botao-ex-cinco {
+  margin: 10px;
+  padding: 10px 15px 10px;
+}
+
+.label-ex-cinco {
+  margin: 5px;
+}
+
+.botao-ex-cinco {
+  margin: 5px;
+}
+
+/***Exercicio 06***/
+#div-ex-seis {
+  margin: 1vw;
+  display: flex;
+  min-width: 40vw;
+  max-width: 500px;
+  min-height: 30vh;
+  max-height: 700px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+#div-ex-seis h2 {
+  text-shadow: 2px 2px white;
+  font-family: 'Press Start 2P';
+  margin: 10px;
+}
+
+.botao-ex-seis {
+  margin: 10px;
+  padding: 10px 15px 10px;
+}
+
+.label-ex-seis {
+  margin: 5px;
+}
+
+.botao-ex-seis {
+  margin: 5px;
+}
+
+/******** Exercicio 07 *******/
+#div-ex-sete {
+  margin: 1vw;
+  display: flex;
+  min-width: 40vw;
+  max-width: 500px;
+  min-height: 30vh;
+  max-height: 700px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+#div-ex-sete h2 {
+  text-shadow: 2px 2px white;
+  margin: 10px;
+  font-family: 'Press Start 2P';
+}
+
+#questao-sete {
+  padding: 10px;
+  text-align: justify;
+}
+
+.label-ex-sete {
+  margin: 5px;
+}
+
+.botao-ex-sete {
+  margin: 5px;
+}
+
+/***Exercicio 08***/
+#div-ex-oito {
+  margin: 1vw;
+  display: flex;
+  min-width: 40vw;
+  max-width: 500px;
+  min-height: 30vh;
+  max-height: 700px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+#div-ex-oito h2 {
+  text-shadow: 2px 2px white;
+  font-family: 'Press Start 2P';
+  margin: 10px;
+}
+
+.botao-ex-oito {
+  margin: 10px;
+  padding: 10px 15px 10px;
+}
+
+.label-ex-oito {
+  margin: 5px;
+}
+
+/***Exercicio 09***/
+#div-ex-nove {
+  margin: 1vw;
+  display: flex;
+  min-width: 40vw;
+  max-width: 500px;
+  min-height: 30vh;
+  max-height: 700px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+#div-ex-nove h2 {
+  text-shadow: 2px 2px white;
+  font-family: 'Press Start 2P';
+  margin: 10px;
+}
+
+.botao-ex-nove {
+  margin: 10px;
+  padding: 10px 15px 10px;
+}
+
+/******** Exercicio 10 *******/
+#div-ex-dez {
+  margin: 1vw;
+  display: flex;
+  min-width: 40vw;
+  max-width: 500px;
+  min-height: 30vh;
+  max-height: 700px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+#div-ex-dez h2 {
+  text-shadow: 2px 2px white;
+  font-family: 'Press Start 2P';
+  margin: 10px;
+}
+
+#questao-dez {
+  padding: 10px;
+  text-align: justify;
+}
+
+.label-ex-dez {
+  margin: 5px;
+}
+
+.botao-ex-dez {
+  margin: 5px;
+}
+
+/******** Exercicio 11 *******/
+#div-ex-onze {
+  margin: 1vw;
+  display: flex;
+  min-width: 40vw;
+  max-width: 500px;
+  min-height: 30vh;
+  max-height: 700px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+#div-ex-onze h2 {
+  text-shadow: 2px 2px white;
+  font-family: 'Press Start 2P';
+  margin: 10px;
+}
+
+#questao-onze {
+  padding: 10px;
+  text-align: justify;
+}
+
+.label-ex-onze {
+  margin: 5px;
+}
+
+.botao-ex-onze {
+  margin: 5px;
+}
+
+/***Exercicio 12***/
+#div-ex-doze {
+  margin: 1vw;
+  display: flex;
+  min-width: 40vw;
+  max-width: 500px;
+  min-height: 30vh;
+  max-height: 700px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+#div-ex-doze h2 {
+  text-shadow: 2px 2px white;
+  font-family: 'Press Start 2P';
+  margin: 10px;
+}
+
+.botao-ex-doze {
+  margin: 10px;
+  padding: 10px 15px 10px;
+}
+
+.label-ex-doze {
+  margin: 5px;
+}
+
+/***Exercicio 13***/
+
+#div-ex-treze {
+  margin: 1vw;
+  display: flex;
+  min-width: 40vw;
+  max-width: 500px;
+  min-height: 30vh;
+  max-height: 700px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+#div-ex-treze h2 {
+  text-shadow: 2px 2px white;
+  font-family: 'Press Start 2P';
+  margin: 10px;
+}
+
+.botao-ex-treze {
+  margin: 10px;
+  padding: 10px 15px 10px;
+}
+
+/*** Footer ***/
+footer {
+  display: flex;
+  position: relative;
+  bottom: 0;
+  min-width: 90vw;
+  justify-content: center;
+  align-items: center;
+}
+
+table,
+th,
+td {
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.footer-texto {
+  text-shadow: 2px 2px white;
+  max-width: 90vw;
+  text-align: center;
+  font-family: 'Press Start 2P';
+}

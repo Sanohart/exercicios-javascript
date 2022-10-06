@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Uninassau</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="shortcut icon" href="/assets/img/favi.png" />
+  </head>
+  <body>
+    <header>
+      <h1 id="banner-texto">Lista de Exercícios</h1>
+      <h2>
+        Grupo:
+        <a
+          class="links-secretos"
+          href="https://github.com/Sanohart"
+          target="_blank"
+          >Rafael Moura</a
+        >
+      </h2>
+    </header>
+    <main>
+      <container class="container">
+        <!--Exercício 01-->
+        <div class="divs-exercicio" id="div-ex-um">
+          <h2>Exercício 01</h2>
+          <p id="questao-ex-um">
+            Crie um script que declara duas variáveis, a primeira se chama nome
+            e a segunda se chama sobrenome. A primeira variável deve ser
+            inicializada com uma string qualquer, a segunda também. No final, o
+            script deve concatenar as duas variáveis e imprimi-las por uma saída
+            de dados.
+          </p>
+          <label class="label-ex-um" for="input-nome-ex-um"
+            >Insira seu nome:
+          </label>
+          <input type="text" id="input-nome-ex-um" placeholder="Ex: Rafael" />
+          <label class="label-ex-um" for="input-sobrenome-ex-um"
+            >Insira seu sobrenome:</label
+          >
+          <input
+            type="text"
+            id="input-sobrenome-ex-um"
+            placeholder="Ex: Felipe"
+          />
+          <button id="botao-ex-um" class="botao-ex-um">Unir</button>
+          <p>O resultado final foi: <strong id="resposta-ex-um"></strong></p>
+        </div>
+        <!--Exercício 02-->
+        <div class="divs-exercicio" id="div-ex-dois">
+          <h2>Exercício 02</h2>
+          <p id="questao-ex-dois">
+            Crie um script que declara uma variável chamada n, esta variável
+            precisa ser inicializada por um prompt() e deve guardar um valor
+            numérico qualquer. Logo, usando n, calcule e imprima:
+            <br />a. 𝑛<sup>5</sup> <br />b. ((50 % 9) + 9 * ( 10 + 5 * n)) / 2
+            <br />c. (n + 60 − (50 % 6)) / ((10 + 3) * 5)
+          </p>
+          <button id="botao-ex-dois" class="botao-ex-dois">Calcular</button>
+          <p>O resultado final foi:</p>
+          <br />
+          <strong id="resposta-ex-dois-a"></strong>
+          <strong id="resposta-ex-dois-b"></strong>
+          <strong id="resposta-ex-dois-c"></strong>
+        </div>
+        <!--Exercício 03-->
+        <div class="divs-exercicio" id="div-ex-tres">
+          <h2>Exercício 03</h2>
+          <p id="questao-ex-tres">
+            Crie um script que recebe o nome de um funcionário e o salário dele.
+            Além disso, o programa deve calcular o valor de um aumento de 5%
+            para ele. O script, no final, deve imprimir pulando linha:
+            <br />a. “Salário de nomeDoTrabalhador: xx,xx reais” <br />b.
+            “Aumento de 5% no valor de: xx,xx reais”<br />
+            c. “Novo salário: xx,xx reais”
+          </p>
+          <label class="label-ex-tres" for="input-nome-ex-tres"
+            >Insira seu nome:
+          </label>
+          <input type="text" id="input-nome-ex-tres" placeholder="Ex: Rafael" />
+          <label class="label-ex-tres" for="input-salario-ex-tres"
+            >Insira seu salario:</label
+          >
+          <input
+            type="number"
+            id="input-salario-ex-tres"
+            placeholder="Ex: 1200,00"
+          />
+          <button id="botao-ex-tres" class="botao-ex-tres">Unir</button>
+          <p>O resultado final foi:</p>
+          <br />
+          <strong id="resposta-ex-tres-a"></strong>
+          <strong id="resposta-ex-tres-b"></strong>
+          <strong id="resposta-ex-tres-c"></strong>
+        </div>
+        <!--Exercício 04-->
+        <div class="divs-exercicio" id="div-ex-quatro">
+          <h2>Exercício 04</h2>
+          <p id="questao-ex-quatro">
+            Opere:
+            <br />
+            a. 10 + 12 == 11 && (true == false || 10 < 11)
+            <br />
+            b. !((10 < 11 != true) == !false)
+          </p>
+          <button id="botao-ex-quatro" class="botao-ex-quatro">Operar</button>
+          <p>O resultado final foi:</p>
+          <br />
+          <strong id="resposta-ex-quatro-a"></strong>
+          <strong id="resposta-ex-quatro-b"></strong>
+        </div>
+        <!--Exercício 05-->
+        <div class="divs-exercicio" id="div-ex-cinco">
+          <h2>Exercício 05</h2>
+          <p id="questao-ex-cinco">
+            Crie um script que faça conversão de pesos argentinos para reais e
+            imprima o valor final.<br />
+            P.S: Considere o valor da data 16/09/2022 onde 1 real equivale a
+            0.037 pesos argentinos. <br />
+            P.S<sup>2</sup>: A questão está invertida, 1 peso equivale a 0.037
+            reais.
+          </p>
+          <label class="label-ex-cinco" for="input-valor-ex-cinco"
+            >Insira o valor:</label
+          >
+          <input
+            type="number"
+            id="input-valor-ex-cinco"
+            placeholder="Ex: 1200,00"
+          />
+          <button id="botao-ex-cinco" class="botao-ex-cinco">Converter</button>
+          <p>O resultado final foi:</p>
+          <br />
+          <strong id="resposta-ex-cinco-a"></strong>
+        </div>
+        <!--Exercício 06-->
+        <div class="divs-exercicio" id="div-ex-seis">
+          <h2>Exercício 06</h2>
+          <p id="questao-ex-seis">
+            Considere a questão anterior, Carlos foi numa casa de câmbio e quis
+            trocar 1450 pesos argentinos para reais, porém, a casa de câmbio
+            cobra 3% do valor que se deseja trocar.<br />
+            a. Com quantos reais Carlos ficou no final?<br />
+            b. Qual o valor da casa de câmbio?
+          </p>
+          <button id="botao-ex-seis" class="botao-ex-seis">Converter</button>
+          <p>O resultado final foi:</p>
+          <br />
+          <strong id="resposta-ex-seis-a"></strong>
+          <strong id="resposta-ex-seis-b"></strong>
+        </div>
+        <!--Exercício 07-->
+        <div class="divs-exercicio" id="div-ex-sete">
+          <h2>Exercício 07</h2>
+          <p id="questao-ex-sete">
+            Crie um script que recebe quatro informações. Nome, idade, salário e
+            profissão. Sabendo que o document.write pode construir tags em HTML,
+            crie uma tabela (tag table/tr/th/td) na qual há duas pessoas com
+            esses dados, os dados delas (nome, etc) serão dados por vocês.
+          </p>
+          <br />
+          <label for="input-nome-ex-sete">Nome:</label>
+          <input type="text" id="input-nome-ex-sete" placeholder="Ex: Rafael" />
+          <p></p>
+          <label for="input-idade-ex-sete">Idade:</label>
+          <input type="number" id="input-idade-ex-sete" placeholder="Ex: 27" />
+          <p></p>
+          <label for="input-salario-ex-sete">Salário:</label>
+          <input
+            type="number"
+            id="input-salario-ex-sete"
+            placeholder="Ex: 800"
+          />
+          <p></p>
+          <label for="input-profissao-ex-sete">Profissão:</label>
+          <input
+            type="text"
+            id="input-profissao-ex-sete"
+            placeholder="Ex: Estudante"
+          />
+          <br />
+          <button id="botao-ex-sete">Registrar</button>
+          <br />
+
+          <div id="div-tabela"></div>
+        </div>
+        <!--Exercício 08-->
+        <div class="divs-exercicio" id="div-ex-oito">
+          <h2>Exercício 08</h2>
+          <p id="questao-ex-oito">
+            Crie um script que peça ao usuário a idade dele, <b>se</b> o usuário
+            for maior de idade (maior que 17 anos), ele deverá imprimir "você é
+            adulto". <b>caso contrário</b>, o programa deverá imprimir "Você
+            ainda é menor de idade".
+          </p>
+          <label class="label-ex-oito" for="input-idade-ex-oito"
+            >Insira sua idade:</label
+          >
+          <input type="number" id="input-idade-ex-oito" placeholder="Ex: 27" />
+          <button id="botao-ex-oito" class="botao-ex-oito">Checar</button>
+          <p>O resultado final foi:</p>
+          <br />
+          <strong id="resposta-ex-oito-a"></strong>
+        </div>
+        <!--Exercício 09-->
+        <div class="divs-exercicio" id="div-ex-nove">
+          <h2>Exercício 09</h2>
+          <p id="questao-ex-nove">
+            Crie um script que: <br />
+            a. Pergunte ao usuário qual o nome dele. <br />
+            b. Se o usuário escrever um nome correto (por exemplo, “Carlos”), o
+            script perguntará qual a senha do usuário, e se o usuário escrever a
+            senha correta, o script imprimirá “usuário autorizado”. <br />
+            c. Atenção, o nome válido e a senha, ambos, devem ser dados por
+            vocês.
+          </p>
+          <button id="botao-ex-nove" class="botao-ex-nove">Autenticação</button>
+          <p>O resultado final foi:</p>
+          <br />
+          <strong id="resposta-ex-nove-a"></strong>
+        </div>
+        <!--Exercício 10-->
+        <div class="divs-exercicio" id="div-ex-dez">
+          <h2>Exercício 10</h2>
+          <p id="questao-ex-dez">
+            Crie um script de uma boate que aceite a entrada do nome do usuário
+            e a idade dele. O script fará:<br />
+            <b>Se</b> a idade do usuário for menor que 16 anos, o programa deve
+            imprimir “nomeDoUsuario, está proibido a sua entrada!”.<br />
+            <b>Se</b> a idade do usuário for maior e igual a 16 e menor a 18, o
+            programa deve imprimir “nomeDoUsuario, está proibido a sua entrada
+            sem acompanhante!”<br />
+            <b>Se</b> a idade do usuário for maior ou igual a 18 anos, deve
+            imprimir: “nomeDoUsuario, a sua entrada está liberada!”
+          </p>
+          <label class="label-ex-dez" for="input-nome-ex-dez"
+            >Insira seu nome:
+          </label>
+          <input type="text" id="input-nome-ex-dez" placeholder="Ex: Rafael" />
+          <label class="label-ex-dez" for="input-idade-ex-dez"
+            >Insira sua idade:</label
+          >
+          <input type="number" id="input-idade-ex-dez" placeholder="Ex: 27" />
+          <button id="botao-ex-dez" class="botao-ex-dez">Entrar</button>
+          <p>O resultado final foi:</p>
+          <br />
+          <strong id="resposta-ex-dez-a"></strong>
+        </div>
+        <!--Exercício 11-->
+        <div class="divs-exercicio" id="div-ex-onze">
+          <h2>Exercício 11</h2>
+          <p id="questao-ex-onze">
+            Crie um script que: <br />
+            a. Receba a quantidade de um produto e o valor dele <br />
+            b. Calcule o total do valor.<br />
+            c. Calcule, baseado no total, o desconto que o cliente terá:<br />
+            i.Se o valor da compra for maior que 100 reais, receberá 5% de
+            desconto.<br />
+            ii. Se o valor da compra for maior que 1000 reais, receberá 10% de
+            desconto. <br />
+            iii. Senão, não receberá desconto. <br />
+            d. Além disso, o programa deverá e imprimir o valor total da compra.
+            <br />
+            e. O valor total com desconto. <br />
+            f. A porcentagem de desconto.
+          </p>
+          <label class="label-ex-onze" for="input-quantidade-ex-onze"
+            >Insira a quantidade:
+          </label>
+          <input
+            type="number"
+            id="input-quantidade-ex-onze"
+            placeholder="Ex: 2"
+          />
+          <label class="label-ex-onze" for="input-valor-ex-onze"
+            >Insira o valor unitário:</label
+          >
+          <input
+            type="number"
+            id="input-valor-ex-onze"
+            placeholder="Ex: 1200,00"
+          />
+          <button id="botao-ex-onze" class="botao-ex-onze">Calcular</button>
+          <p>O resultado final foi:</p>
+          <br />
+          <strong id="resposta-ex-onze-a"></strong>
+          <strong id="resposta-ex-onze-b"></strong>
+          <strong id="resposta-ex-onze-c"></strong>
+        </div>
+        <!--Exercício 12-->
+        <div class="divs-exercicio" id="div-ex-doze">
+          <h2>Exercício 12</h2>
+          <p id="questao-ex-doze">
+            Crie um script que use switch-case para : <br />
+            a. Perguntar ao usuário se é de manhã, tarde, ou noite <br />
+            b. Se o usuário responder “bom dia”, o script imprimirá “Tenha uma
+            ótima manhã”<br />
+            c. Se o usuário responder “boa tarde”, o script imprimirá “Tenha uma
+            ótima tarde”<br />
+            d. Se o usuário responder “boa noite”, o script imprimirá “Tenha uma
+            ótima noite” <br />
+            e. Se o usuário responder qualquer outra coisa, o script imprimirá
+            “Não entendi”
+          </p>
+          <label class="label-ex-doze" for="input-turno-ex-doze"
+            >Insira seu cumprimento:</label
+          >
+          <input
+            type="text"
+            id="input-cumprimento-ex-doze"
+            placeholder="Ex: Bom dia"
+          />
+          <button id="botao-ex-doze" class="botao-ex-doze">Cumprimentar</button>
+          <p>O resultado final foi:</p>
+          <br />
+          <strong id="resposta-ex-doze-a"></strong>
+        </div>
+        <!--Exercício 13-->
+        <div class="divs-exercicio" id="div-ex-treze">
+          <h2>Exercício 13 (no console)</h2>
+          <p id="questao-ex-treze">
+            Faça um script que:<br />
+            a. Peça ao usuário que diga quantos clientes precisam ser
+            cadastrados<br />
+            b. A partir da resposta, crie um laço de repetição (while, for ou do
+            while) que se repita a mesma quantidade de vezes digitada.<br />
+            c. Em cada iteração o usuário deve colocar o nome e a idade de cada
+            um.
+            <br />
+            d. Se a idade do cadastrado for menor que 17 anos, o programa, após
+            encerrar os laços, deverá imprimir “nomeDoUsuario é menor de
+            idade”<br />
+            e. Se não a idade do cadastro for maior que 18 anos, após encerrar
+            os laços, deverá imprimir “nomeDoUsuario é maior de idade”.
+          </p>
+          <button id="botao-ex-treze" class="botao-ex-treze">Cadastro</button>
+          <p>O resultado final foi:</p>
+          <br />
+          <strong id="resposta-ex-treze-a"></strong>
+        </div>
+      </container>
+    </main>
+    <footer>
+      <p class="footer-texto">
+        Desenvolvido na disciplina de Programação Web do curso de ADS da
+        Uninassau. Agradecimentos ao
+        <a
+          class="links-secretos"
+          target="_blank"
+          href="https://github.com/marlon-2020"
+          >Profº Marlon</a
+        >
+      </p>
+    </footer>
+    <script src="/assets/js/scrypt.js"></script>
+  </body>
+</html>
